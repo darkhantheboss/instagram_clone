@@ -6,11 +6,9 @@
 {% block head_title %}{% trans "Instagram" %}{% endblock %}
 {% block inner %}
 
-<div style="justify-content: center;
-position: relative;
-width: 100%;">
+<div style="position: relative; width: 100%; ">
 
-<div style="height: 600px; width:40%;  float:left;background-image: url('static/images/bg.png');">
+<div style="height: 600px;  width:40%; margin-left: 100px; float:left; background-image: url('static/images/bg.png');">
   <div style="float:center; position:relative; margin-left:150px; margin-top:100px;">
       <img class="animated" src='static/images/1.jpg' >
       <img class="animated" src='static/images/2.jpg' >
@@ -19,8 +17,8 @@ width: 100%;">
       <img class="animated" src='static/images/5.jpg' >
     </div>
   </div>
-</div>
-<div style="float:right; margin-right:50px; width:50%;">
+
+<div style="float:right; margin-right:120px; margin-top: 50px;">
 	<h1>{% trans "Instagram" %}</h1>
 	<p>Sign Up to see photos and videos from your friends.</p>
 	<p>{% blocktrans %}Already have an account? Then please <a href="/accounts/login ">sign in</a>.{% endblocktrans %}</p>
@@ -35,5 +33,6 @@ width: 100%;">
 </form>
 </div>
 </div>
+
 {% endblock %}
 

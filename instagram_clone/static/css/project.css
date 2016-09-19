@@ -23,7 +23,7 @@
   .navbar-nav .nav-item + .nav-item {
     margin-left: 0;
    margin-bottom: 0;
-     
+
   }
 
   .nav.navbar-nav.pull-xs-right {
@@ -38,4 +38,7 @@
 [hidden][style="display: block;"] {
   display: block !important;
 }
+
+
+
 

@@ -21,11 +21,16 @@
 <div class="row">
 
   <div class="col-sm-12 ">
-    <a class="btn btn-primary" href="{% url 'users:update' %}">Edit Profile</a>
+    <div class="mypic" style="max-width:735px; box-sizing: content-box; padding-top: 60px; float:center;">
+      <div class="topcont" style="position:relative;">
+          <div class="topcont-right" style="position:relative; float:left; margin-right:30px; ">Hello</div>
+
+          <div class="topcont-right" style="position:relative;"><a class="btn btn-primary" href="{% url 'users:update' %}">Edit Profile</a></div>
     <!-- <a class="btn btn-primary" href="{% url 'account_email' %}">E-Mail</a> -->
     <!-- Your Stuff: Custom user template urls -->
+      </div>
+    </div>
   </div>
-
 </div>
 <!-- End Action buttons -->
 {% endif %}
